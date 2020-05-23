@@ -26,7 +26,7 @@ https://wiki.ros.org/ROSARIA
     `git clone https://github.com/amor-ros-pkg/rosaria.git`  
   2. Install ARIA  
   3. Build catkin workspace directory  
-    `cd ~/catkin_ws`
+    `cd ~/catkin_ws`  
     `catkin_make`  
   4. Open RosAria  
     `rosrun rosaria RosAria`
