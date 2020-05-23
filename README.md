@@ -1,5 +1,5 @@
 # pioneer-ros
-ROS packages to control Pioneer 3 mobile robots and their simulations in MobileSim and Gazebo
+ROS packages to control Pioneer 3 mobile robots and their simulations in MobileSim and Gazebo. Packages created as a part of my Mitacs Globalink Internship at ACM Lab, Dalhousie University.
 
 ## 1. Environment
 - Ubuntu 16.04, ROS Kinetic Kame 
