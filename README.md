@@ -23,20 +23,20 @@ https://wiki.ros.org/ROSARIA
     `cd ~/catkin_ws/src`\
     `git clone https://github.com/amor-ros-pkg/rosaria.git `
 
-    2. Install ARIA  \
-      1. From mobilerobots site
+    2. Install ARIA 
+      - From mobilerobots site  
         1. Install g++  
         `sudo apt install make g++`\  
         2. Download ARIA package libaria_2.9.4+ubuntu16_amd64.deb  
         `wget https://web.archive.org/web/20181005213856/http://robots.mobilerobots.com/ARIA/download/current/libaria_2.9.4+ubuntu16_amd64.deb`\
         3. Install ARIA package  
-        `sudo dpkg -i libaria_2.9.4+ubuntu16_amd64.deb`\ 
-      2. From alternate AriaCode fork
+        `sudo dpkg -i libaria_2.9.4+ubuntu16_amd64.deb`\
+      - From alternate AriaCode fork
         Refer https://github.com/reedhedges/AriaCoda 
 
-    Build catkin workspace directory 
-    cd ~/catkin_ws 
-    catkin_make 
+    3. Build catkin workspace directory  
+    `cd ~/catkin_ws`\ 
+    `catkin_make` 
 
-    Open RosAria 
-    rosrun rosaria RosAria 
+    4. Open RosAria  
+    `rosrun rosaria RosAria` 
