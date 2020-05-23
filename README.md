@@ -19,11 +19,21 @@ https://wiki.ros.org/ROSARIA
 
 ## 3. Package Installation
 - **RosAria**  
-    1. Bring RosAria into workspace  
+  1. Bring RosAria into workspace  
     `cd ~/catkin_ws/src`  
     `git clone https://github.com/amor-ros-pkg/rosaria.git`  
-    
-    2. Install ARIA  
+  2. Install ARIA  
+  3. Build catkin workspace directory  
+    `cd ~/catkin_ws`\ 
+    `catkin_make`  
+  4. Open RosAria  
+    `rosrun rosaria RosAria`
+  
+  
+  
+  
+  
+  
     - From mobilerobots site
     
   
@@ -44,9 +54,4 @@ https://wiki.ros.org/ROSARIA
       - From alternate AriaCode fork
         Refer https://github.com/reedhedges/AriaCoda 
 
-    3. Build catkin workspace directory  
-    `cd ~/catkin_ws`\ 
-    `catkin_make` 
-
-    4. Open RosAria  
-    `rosrun rosaria RosAria` 
+     
