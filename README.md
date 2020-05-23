@@ -40,3 +40,24 @@ https://wiki.ros.org/ROSARIA
     `catkin_make`  
   4. Open RosAria  
     `rosrun rosaria RosAria`
+    
+
+- **MobileSim**   
+	1. Download MobileSim package  mobilesim_0.9.8+ubuntu16_amd64.deb from archive  
+	`wget https://web.archive.org/web/20181006012429/http://robots.mobilerobots.com/MobileSim/download/current/mobilesim_0.9.8+ubuntu16_amd64.deb`  
+	2. Install MobileSim package  
+	`sudo dpkg -i mobilesim_0.9.8+ubuntu16_amd64.deb`
+	3. Launch MobileSim from terminal  
+	`MobileSim -nomap`  
+	
+- **Pioneer P3-DX Model on Gazebo**  
+	1.  Clone the pioneer_p3dx_model package from  https://github.com/mario-serna/pioneer_p3dx_model  
+	`cd ~/catkin_ws/src`  
+	`git clone https://github.com/mario-serna/pioneer_p3dx_model.git`  
+	2.  Build catkin workspace directory  
+	`cd ~/catkin_ws`  
+	`catkin_make`  
+	3.  Launch Gazebo  
+	`roslaunch gazebo_ros empty_world.launch`  
+	4.  Spawn the P3-DX model on Gazebo  
+	`roslaunch p3dx_gazebo p3dx.launch`
