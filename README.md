@@ -6,10 +6,9 @@ ROS packages to control Pioneer 3 mobile robots and their simulations in MobileS
 - Ubuntu 18.04, ROS Melodic Morenia 
   
 ## 2. Package Documentation
-#### RosAria 
+**RosAria** 
 https://wiki.ros.org/ROSARIA 
-
-#### ARIA 
+**ARIA** 
 - https://www.eecs.yorku.ca/course_archive/2009-10/W/4421/doc/pioneer/aria/main.html 
 - https://web.archive.org/web/20181005213856/http://robots.mobilerobots.com/wiki/ARIA 
 
