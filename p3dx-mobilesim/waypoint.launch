@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- Extensible Markup Language (human and machine readable) -->
+<launch>
+
+	<node pkg="rosaria" type="RosAria" name="RosAria">
+	</node>
+
+	<node pkg="p3dx-mobilesim" type="waypoint" name="waypoint" output="screen" >
+	</node>
+	
+</launch>
+
