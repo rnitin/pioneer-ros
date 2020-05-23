@@ -20,9 +20,9 @@ https://wiki.ros.org/ROSARIA
 ## 3. Package Installation
 - **RosAria**  
     1. Bring RosAria into workspace  
-    `cd ~/catkin_ws/src`\
-    `git clone https://github.com/amor-ros-pkg/rosaria.git `
-
+    `cd ~/catkin_ws/src`  
+    `git clone https://github.com/amor-ros-pkg/rosaria.git`  
+    
     2. Install ARIA   
       - From mobilerobots site
        1. Install g++  
