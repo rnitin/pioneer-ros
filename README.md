@@ -23,14 +23,15 @@ https://wiki.ros.org/ROSARIA
     `cd ~/catkin_ws/src`\
     `git clone https://github.com/amor-ros-pkg/rosaria.git `
 
-    2. Install ARIA 
-      - From mobilerobots site  
-        1. Install g++  
+    2. Install ARIA   
+      - From mobilerobots site   
+       1. Install g++  
         `sudo apt install make g++`\  
-        2. Download ARIA package libaria_2.9.4+ubuntu16_amd64.deb  
+       2. Download ARIA package libaria_2.9.4+ubuntu16_amd64.deb  
         `wget https://web.archive.org/web/20181005213856/http://robots.mobilerobots.com/ARIA/download/current/libaria_2.9.4+ubuntu16_amd64.deb`\
-        3. Install ARIA package  
-        `sudo dpkg -i libaria_2.9.4+ubuntu16_amd64.deb`\
+       3. Install ARIA package  
+        `sudo dpkg -i libaria_2.9.4+ubuntu16_amd64.deb`
+        
       - From alternate AriaCode fork
         Refer https://github.com/reedhedges/AriaCoda 
 
