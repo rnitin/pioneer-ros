@@ -28,8 +28,9 @@ https://wiki.ros.org/ROSARIA
   
 	  - From mobilerobots site archive  
 		  1.  Install g++  
+		 `cd ~`  
 		 `sudo apt install make g++`  
-		 2.  Download ARIA package libaria_2.9.4+ubuntu16_amd64.deb
+		 2.  Download ARIA package libaria_2.9.4+ubuntu16_amd64.deb  
 		      `wget https://web.archive.org/web/20181005213856/http://robots.mobilerobots.com/ARIA/download/current/libaria_2.9.4+ubuntu16_amd64.deb`
 		 3. Install the package  
 		 `sudo dpkg -i libaria_2.9.4+ubuntu16_amd64.deb`
@@ -44,6 +45,7 @@ https://wiki.ros.org/ROSARIA
 
 - **MobileSim**   
 	1. Download MobileSim package  mobilesim_0.9.8+ubuntu16_amd64.deb from archive  
+	`cd ~`  
 	`wget https://web.archive.org/web/20181006012429/http://robots.mobilerobots.com/MobileSim/download/current/mobilesim_0.9.8+ubuntu16_amd64.deb`  
 	2. Install MobileSim package  
 	`sudo dpkg -i mobilesim_0.9.8+ubuntu16_amd64.deb`
